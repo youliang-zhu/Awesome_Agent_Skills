@@ -1,6 +1,8 @@
 *
 !.gitignore
 !README.md
+!assets/
+!assets/**
 !harness-setup/
 !harness-setup/**
 !computer-use-agent-job/
