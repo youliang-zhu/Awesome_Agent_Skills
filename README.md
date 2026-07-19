@@ -4,11 +4,6 @@
   <img src="assets/banner.png" alt="Awesome Agent Skills banner" width="900">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/awesome-agent%20skills-2f6f73" alt="awesome agent skills">
-  <img src="https://img.shields.io/badge/PRs-welcome-4c9f38" alt="PRs welcome">
-</p>
-
 Personal Codex skills for focused agent workflows.
 
 PRs and feedback are welcome.
