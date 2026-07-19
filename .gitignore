@@ -1,0 +1,7 @@
+*
+!.gitignore
+!README.md
+!harness-setup/
+!harness-setup/**
+!computer-use-agent-job/
+!computer-use-agent-job/**
