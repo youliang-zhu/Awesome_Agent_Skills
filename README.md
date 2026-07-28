@@ -108,6 +108,16 @@ record validation or failure notes.
 The skill includes references for common ATS platforms and helper PowerShell
 scripts for UI inspection and required-field scanning.
 
+### `project-interview-climb-machine`
+
+Collaboratively refine a candidate's existing project stories for interviews
+while keeping the candidate's own thinking in control.
+
+Use this when a candidate wants to maintain local project archives, work from
+project materials such as code, slides, PDFs, or papers, connect a project with
+relevant academic and industry developments, prepare different depths of
+project narration, or rehearse follow-up questions.
+
 ## Creating Skills
 
 ### Skill Structure

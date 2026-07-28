@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Interview Climb Machine"
+  short_description: "以用户思路为中心打磨项目讲述、前沿联系、PPT与面试追问准备"
+  default_prompt: "使用 $project-interview-climb-machine 继续我的项目存档，并先询问本次工作区和我想进入的模块。"
