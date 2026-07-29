@@ -118,6 +118,17 @@ project materials such as code, slides, PDFs, or papers, connect a project with
 relevant academic and industry developments, prepare different depths of
 project narration, or rehearse follow-up questions.
 
+### `academic-rebuttal`
+
+Plan and draft evidence-grounded academic rebuttals using an AC-first,
+decision-focused workflow.
+
+Use this when authors need to diagnose reviewer concerns, prioritize rebuttal
+experiments, integrate completed results, draft concise responses, or assess
+whether revision and resubmission would have higher expected value. The skill
+also includes dedicated NeurIPS rebuttal principles covering scope, novelty,
+experiment selection, tone, and the Direct Answer → Evidence → Revision pattern.
+
 ## Creating Skills
 
 ### Skill Structure
