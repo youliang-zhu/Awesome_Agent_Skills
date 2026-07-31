@@ -1,4 +1,4 @@
 interface:
   display_name: "Computer Use Agent Job"
-  short_description: "Fill and improve Chinese ATS job applications with Chrome/computer-use."
-  default_prompt: "Use this skill to fill, audit, or improve a Chinese job application form workflow for ATS systems such as Mokahr or Beisen."
+  short_description: "Fill, learn, and sync reusable Chinese ATS workflows."
+  default_prompt: "Use $computer-use-agent-job to fill or audit this job application, reuse ATS-specific lessons, and sync newly verified rules."

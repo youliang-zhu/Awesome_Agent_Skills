@@ -1,6 +1,16 @@
 # Validation And Failure Log
 
-Use this file when a form field looks filled but the page still rejects it, or when a live filling run is interrupted.
+Use this file as the append-only, sanitized history of live application-form runs, validation failures, successful recoveries, and rule corrections. Read applicable recent entries before a run and append exactly one structured run record afterward. Keep durable active rules in `ats-common.md` or the matching ATS reference.
+
+## Run Record Contract
+
+Use the `RUN-YYYYMMDD-HHMMSS-<ats>-<company>` template in `self-evolution.md`.
+
+- Always record outcome, difficulties, successful and failed tactics, rule changes, unresolved items, and a privacy check.
+- Never record personal field values, credentials, authentication state, private URLs, uploaded files, or full page transcripts.
+- Reference stable rule IDs when a run adds, confirms, narrows, corrects, or supersedes guidance.
+- If a run yields no reusable lesson, write `Rule changes: none`; the run record is still required.
+- Do not rewrite old run records except to correct accidental sensitive data. Record later contradictions in a new run and update the owning rule lifecycle.
 
 ## Common Failure Classes
 
@@ -24,7 +34,9 @@ Expected behavior: pause safely and wait for exclusive input-device control. Do 
 
 Boundary: do not upload unless the user explicitly authorizes upload in the current conversation. If upload is mandatory, report it as unresolved.
 
-## Run Notes
+## Legacy Run Notes
+
+The entries below predate the structured run-record contract. Preserve them as evidence and migrate reusable observations into stable vendor rules when those files are next updated.
 
 ### ZTE Mokahr
 
