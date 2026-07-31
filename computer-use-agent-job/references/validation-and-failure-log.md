@@ -84,3 +84,17 @@ The entries below predate the structured run-record contract. Preserve them as e
 - Coordinate note: on dual-screen/high-DPI setups, mouse coordinates can shift depending on scroll position. Prefer `ScrollItemPattern.ScrollIntoView`, `SetFocus`, keyboard entry, and UIA candidate invocation. If mouse is required, first move the target field to the middle/lower-middle of the viewport and verify by reading the opened candidate list.
 - TAL education option mapping observed: `学习形式` -> `全国普通高等院校全日制`; `培养方式` -> `非定向（统招、并轨）`; overseas graduate schools -> `是否为海外院校=是`; domestic undergraduate school -> `否`; English certificate type can be selected as `雅思` for overseas entries and `六级` for SYSU.
 - TAL birth date picker accepted only year-month in this run; selecting year `2002` and month `十一月` produced `2002-11 (23岁)` and cleared the date requirement.
+
+### RUN-20260731-215741-custom-oppo
+
+- Date: 2026-07-31
+- Company / host: OPPO / careers.oppo.com
+- ATS / variant: custom / OPPO university resume editor
+- Scope: basic information, education, internships, projects, student leadership, skills, awards, publications, portfolio, patent, and emergency-contact audit
+- Outcome: partial
+- Difficulties: Education used two confirmation modals; changing a start month beyond the current end was reverted; false national-lab selection hid the lab field; portfolio required an attachment; patent required a publication date.
+- Successful tactics: Edited sections through the module edit control; corrected date ranges end-first; matched exchange and degree-granting entries at the same study level; verified saves by waiting for Save to disappear; kept source-missing fields unresolved.
+- Failed tactics: Link-only portfolio save; direct hidden lab-field fill; setting project start dates before extending end dates.
+- Rule changes: RULE-OPPO-module-edit-save, RULE-OPPO-exchange-education-confirmations, RULE-OPPO-date-range-update-order, RULE-OPPO-hidden-lab-field, RULE-OPPO-required-portfolio-attachment, RULE-OPPO-patent-publication-date
+- Unresolved: Existing unsourced identity and language values need user confirmation; internship current-status month, school ranks and one department need confirmation; portfolio attachment, patent publication date, and emergency-contact data are missing.
+- Privacy check: no personal values, credentials, attachments, or page transcript

@@ -23,7 +23,7 @@ Do not copy sensitive personal data into this skill unless the user explicitly r
 
 1. Confirm the target company, job title, ATS/page type, and whether the task is fill, audit, resume, or maintain.
 2. Read the profile source and the relevant role strategy.
-3. Identify the ATS from the host, visible branding, page assets, and UI behavior. Read `references/ats-common.md`, the matching ATS reference, and applicable recent entries in `references/validation-and-failure-log.md`. Use `references/mokahr.md` for Mokahr, `references/beisen.md` for Beisen/Phoenix, `references/feishu.md` for Feishu Recruitment, and `references/hotjob.md` for HotJob-style pages. Treat each company's schema as a possible variant of the vendor platform.
+3. Identify the ATS from the host, visible branding, page assets, and UI behavior. Read `references/ats-common.md`, the matching ATS reference, and applicable recent entries in `references/validation-and-failure-log.md`. Use `references/mokahr.md` for Mokahr, `references/beisen.md` for Beisen/Phoenix, `references/feishu.md` for Feishu Recruitment, `references/hotjob.md` for HotJob-style pages, and `references/oppo.md` for OPPO's company-hosted university resume editor. Treat each company's schema as a possible variant of the vendor platform.
 4. Build a short fill plan by page section: personal information, education, internships, projects, awards, skills, language, open questions.
 5. Fill stable text fields first, then dates/spinners, then dropdowns/cascading selectors/autocomplete fields.
 6. Add repeated entries one at a time. After each add, verify the current visual state before continuing because ATS pages may reorder or insert blank cards near the viewport.
@@ -50,6 +50,7 @@ A live fill, audit, or resume run is not complete until all of the following are
 - Read `references/beisen.md` when the page is Beisen or resembles Beisen.
 - Read `references/feishu.md` when the page is Feishu Recruitment or its branding/assets identify a Feishu recruiting form.
 - Read `references/hotjob.md` when the page URL or UI resembles `*.hotjob.cn` old-style resume forms.
+- Read `references/oppo.md` for `careers.oppo.com` university resume pages and their section-save, education, date, portfolio, and publication-field behavior.
 - Read `references/role-strategies.md` before choosing which internships/projects/awards to prioritize for a job family.
 - Read `references/self-evolution.md` before the first live action and again before editing this skill after a real application run.
 - Read `references/validation-and-failure-log.md` before a live run for similar prior symptoms and append exactly one run record afterward.
