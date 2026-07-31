@@ -98,3 +98,17 @@ The entries below predate the structured run-record contract. Preserve them as e
 - Rule changes: RULE-OPPO-module-edit-save, RULE-OPPO-exchange-education-confirmations, RULE-OPPO-date-range-update-order, RULE-OPPO-hidden-lab-field, RULE-OPPO-required-portfolio-attachment, RULE-OPPO-patent-publication-date
 - Unresolved: Existing unsourced identity and language values need user confirmation; internship current-status month, school ranks and one department need confirmation; portfolio attachment, patent publication date, and emergency-contact data are missing.
 - Privacy check: no personal values, credentials, attachments, or page transcript
+
+### RUN-20260731-220944-feishu-xiaomi
+
+- Date: 2026-07-31
+- Company / host: Xiaomi / jobs.f.mioffice.cn
+- ATS / variant: Feishu / Mioffice top-talent resume editor
+- Scope: audited and corrected education, internship, project, award, self-evaluation, and social-profile sections; attempted whole-form save
+- Outcome: partial
+- Difficulties: Resume parsing concatenated neighboring sections and misclassified a competition as an internship; hidden historical month-picker panels caused ambiguous option matches; the customer schema required source-missing or intentionally blank education fields.
+- Successful tactics: Reused existing cards to enforce the requested internship order, removed the misclassified card, split the two core projects, scoped date options to the active non-hidden dropdown, and used inline validation as the authoritative save signal.
+- Failed tactics: Unscoped month-option locators matched hidden panels; whole-form Save could not persist while five education fields remained blank by source policy.
+- Rule changes: RULE-FEISHU-parser-section-bleed, RULE-FEISHU-active-month-dropdown, RULE-FEISHU-company-required-schema
+- Unresolved: One undergraduate major is absent from the source profile; two non-EPFL education records require mentor and laboratory values that the source policy says to leave blank.
+- Privacy check: no personal values, credentials, attachments, or page transcript
