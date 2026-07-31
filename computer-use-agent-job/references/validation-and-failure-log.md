@@ -112,3 +112,17 @@ The entries below predate the structured run-record contract. Preserve them as e
 - Rule changes: RULE-FEISHU-parser-section-bleed, RULE-FEISHU-active-month-dropdown, RULE-FEISHU-company-required-schema
 - Unresolved: One undergraduate major is absent from the source profile; two non-EPFL education records require mentor and laboratory values that the source policy says to leave blank.
 - Privacy check: no personal values, credentials, attachments, or page transcript
+
+### RUN-20260731-223111-custom-cmbnt
+
+- Date: 2026-07-31
+- Company / host: CMB Network Technology / cmbnt.cmbchina.com
+- ATS / variant: custom / React and Ant Design style resume center
+- Scope: audited parsed education and identity fields; completed internships, project names and descriptions, two awards, application skill, self-evaluation, and draft save
+- Outcome: partial
+- Difficulties: Parsed project cards had descriptions but blank names; draft validation rejected special characters across organization and project fields; award date inputs were read-only calendar controls.
+- Successful tactics: Mapped project descriptions back to source-backed names, replaced symbolic separators with equivalent words, selected award dates year-month-day through the calendar, and verified persistence through the `暂存成功` message.
+- Failed tactics: Direct fill of the read-only award date; the first draft attempt with symbolic separators.
+- Rule changes: RULE-CMBNT-parser-blank-project-names, RULE-CMBNT-special-character-draft-validation, RULE-CMBNT-draft-allows-incomplete-required-sections, RULE-CMBNT-readonly-award-date-picker
+- Unresolved: Required identity, location, education-status, language, job-intention, family, and attachment fields lack confirmed source data or upload authorization; existing parser-derived identity and future end-date values remain unverified.
+- Privacy check: no personal values, credentials, attachments, or page transcript

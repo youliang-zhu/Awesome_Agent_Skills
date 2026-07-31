@@ -51,6 +51,7 @@ A live fill, audit, or resume run is not complete until all of the following are
 - Read `references/feishu.md` when the page is Feishu Recruitment or its branding/assets identify a Feishu recruiting form.
 - Read `references/hotjob.md` when the page URL or UI resembles `*.hotjob.cn` old-style resume forms.
 - Read `references/oppo.md` for `careers.oppo.com` university resume pages and their section-save, education, date, portfolio, and publication-field behavior.
+- Read `references/cmbnt.md` for the company-hosted CMBNT resume editor on `cmbnt.cmbchina.com`, including parser gaps, special-character validation, award dates, and draft behavior.
 - Read `references/role-strategies.md` before choosing which internships/projects/awards to prioritize for a job family.
 - Read `references/self-evolution.md` before the first live action and again before editing this skill after a real application run.
 - Read `references/validation-and-failure-log.md` before a live run for similar prior symptoms and append exactly one run record afterward.
