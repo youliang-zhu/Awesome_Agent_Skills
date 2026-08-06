@@ -1,0 +1,4 @@
+interface:
+  display_name: "校准式技术调研"
+  short_description: "先校准知识背景，再按问题深度调研并给出可核验的技术答案"
+  default_prompt: "Use $calibrate-technical-research to calibrate my current understanding before researching and answering this technical question."

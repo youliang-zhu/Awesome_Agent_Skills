@@ -129,6 +129,18 @@ whether revision and resubmission would have higher expected value. The skill
 also includes dedicated NeurIPS rebuttal principles covering scope, novelty,
 experiment selection, tone, and the Direct Answer → Evidence → Revision pattern.
 
+### `calibrate-technical-research`
+
+Calibrate a learner's existing knowledge before researching and explaining a
+technical question at the right depth.
+
+Use this when a learner wants to distinguish known, missing, and easily
+overlooked concepts before receiving a full answer. The skill routes basic
+learning toward strong explanatory sources such as technical blogs and Zhihu,
+routes frontier investigation toward recent primary papers and technical
+reports, and presents key evidence with precise locations, complete
+claim-bearing quotations, and interpretation.
+
 ## Creating Skills
 
 ### Skill Structure
